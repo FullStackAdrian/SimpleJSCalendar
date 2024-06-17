@@ -1,0 +1,93 @@
+#calendar-items {
+
+    display: flex;
+
+}
+
+#calendar {
+    margin-bottom: 20px;
+    margin-left: 30%;
+    width: 40vw;
+    max-height: 50vh;
+    min-height: 30%;
+    height: auto;
+    background-color: #b09071;
+    border: 10px solid #355761;
+    border-radius: 5px;
+}
+
+
+.year {
+    font-size: max(12px, 1.3vw);
+    margin-top: 3vh;
+    display: inline-flex;
+    width: 80%;
+
+
+}
+
+.monthName {
+    font-size: max(12px, 1.3vw);
+    margin-top: 3vh;
+    display: inline-flex;
+    margin-left: 3%;
+    width: 15%;
+    justify-content: end;
+    margin-right: 10px;
+
+
+
+}
+
+.weekNames {
+
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: inline-flex;
+    width: 14%;
+    justify-content: center;
+    font-size: max(12px, 1.2vw);
+
+}
+
+.week {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: inline-flex;
+    width: 14%;
+    justify-content: center;
+    font-size: max(12px, 1.2vw);
+}
+
+.actualDay {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: inline-flex;
+    width: 14%;
+    background-color: #355761;
+    border: 2px solid #355761;
+    border-radius: 5px;
+    justify-content: center;
+    font-size: max(12px, 1.2vw);
+
+
+}
+
+.event-titles {
+    width: 20vw;
+    max-height: 50vh;
+    overflow-y: auto;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.event-title {
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #e3e3e3;
+    border-left: 4px solid #355761;
+}
