@@ -43,9 +43,9 @@ if ($result->num_rows > 0) {
 }
 
 $json = json_encode(["events" => $events], JSON_PRETTY_PRINT);
-// Devolver los eventos como JSON
+// Return events as JSON
 echo $json;
 
-// Cerrar la conexión
+// Close connection
 $mysqli->close();
 ?>
